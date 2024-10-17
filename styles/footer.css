@@ -46,6 +46,10 @@
     border: none;
 }
 
+.rodape__button:hover {
+    background: var(--vermelho-hover);
+}
+
 .rodape__link {
     text-decoration: none;
     font-family: var(--fonte-principal);

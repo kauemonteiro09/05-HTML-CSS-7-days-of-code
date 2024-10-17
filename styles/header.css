@@ -57,6 +57,10 @@
     border: none;
 }
 
+.header-button__secundario:hover {
+    background: var(--vermelho-hover);
+}
+
 .button__link-primario {
     text-decoration: none;
     font-family: var(--fonte-principal);
@@ -71,4 +75,5 @@
     color: var(--branco);
     font-weight: 500;
     border: 1px solid var(--vermelho);
+    border: none;
 }
