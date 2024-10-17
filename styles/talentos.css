@@ -30,3 +30,45 @@
     background: var(--vermelho-claro);
     margin-bottom: 0.5rem;
 }
+
+.talentos__img {
+    margin-bottom: 4rem;
+    border-radius: 1rem;
+}
+
+.talentos__vagas {
+    margin: 0 14rem;
+}
+
+.vagas__titulo {
+    color: var(--cinza-escuro);
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.875rem;
+    margin-bottom: 2rem;
+}
+
+.vagas__box {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    border: 1px solid var(--cinza-borda);
+    border-radius: 1rem;
+}
+.texto__box {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.vagas__subtitulo {
+    color: var(--cinza-escuro);
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+}
+
+.vagas__texto {
+    font-weight: 500;
+}

@@ -1,9 +1,12 @@
 .metricas {
     display: flex;
-    align-items: top;
-    justify-content: center;
+    margin: auto;
     gap: 2rem;
-    padding: 0 6rem 6rem 6rem;
+    padding: 0 6rem;
+}
+
+.metricas__box {
+    width: 50%;
 }
 
 .metricas__numeros {

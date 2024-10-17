@@ -8,7 +8,6 @@
         <title>OptimusTech</title>
     </head>
     <body>
-      <div class="tech">
         <header class="header">
             <div class="header__box">
                 <div class="header__logo">
@@ -22,8 +21,8 @@
                     <li class="header__item"><a href="#" class="header__link">Sobre nós</a></li>
                 </ul>
                 <div class="header__buttons">
-                    <button class="header-button__primario">Entrar</button>
-                    <button class="header-button__secundario">Cadastrar</button>
+                    <button class="header-button__primario"><a href="#" class="button__link-primario">Entrar</a></button>
+                    <button class="header-button__secundario"><a href="#" class="button__link-secundario">Cadastrar</a></button>
                 </div>
             </div>
         </header>
@@ -65,44 +64,70 @@
                     <h2 class="talentos__titulo">Estamos procurando por talentos</h2>
                     <p class="talentos__texto">Somos uma equipe 100% remota com pessoas do Brasil inteiro.</p>
                 </div>
-                <img src="./img/talentos.svg" alt="Pessoas talentosas trabalhando em uma mesa com computadores" class="talentos__img"/>
+                <img src="./img/talentos.svg" alt="Pessoas talentosas trabalhando em uma mesa com computadores" class="talentos__img" />
                 <div class="talentos__vagas">
-                  <h2 class="vagas__titulo">Design</h2>
+                    <h2 class="vagas__titulo">Design</h2>
                     <div class="vagas__box">
                         <h3 class="vagas__subtitulo">Product Designer</h3>
-                        <p class="vagas__texto">Full-time</p>
-                        <p>Faixa salarial: R$7.000</p>
+                        <div class="texto__box">
+                            <p class="vagas__texto">Full-time</p>
+                            <p class="vagas__texto">Faixa salarial: R$7.000</p>
+                        </div>
                     </div>
                     <div class="vagas__box">
                         <h3 class="vagas__subtitulo">UX Designer</h3>
-                        <p class="vagas__texto">Full-time</p>
-                        <p>Faixa salarial: <R16></R16>.000</p>
+                        <div class="texto__box">
+                            <p class="vagas__texto">Full-time</p>
+                            <p class="vagas__texto">Faixa salarial: 8.000</p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="talentos__vagas">
-                  <h2 class="vagas__titulo">Desenvolvimento de Software</h2>
+                    <h2 class="vagas__titulo">Desenvolvimento de Software</h2>
                     <div class="vagas__box">
                         <h3 class="vagas__subtitulo">Desenvolvedor(a) iOS</h3>
-                        <p class="vagas__texto">Full-time</p>
-                        <p>Faixa salarial: R$8.000</p>
+                        <div class="texto__box">
+                            <p class="vagas__texto">Full-time</p>
+                            <p class="vagas__texto">Faixa salarial: R$8.000</p>
+                        </div>
                     </div>
                     <div class="vagas__box">
                         <h3 class="vagas__subtitulo">Desenvolvedor(a) Front-end</h3>
-                        <p class="vagas__texto">Full-time</p>
-                        <p>Faixa salarial: R$ 7.000</p>
+                        <div class="texto__box">
+                            <p class="vagas__texto">Full-time</p>
+                            <p class="vagas__texto">Faixa salarial: R$ 7.000</p>
+                        </div>
                     </div>
                     <div class="vagas__box">
-                      <h3 class="vagas__subtitulo">Desenvolvedor(a) Back-end</h3>
-                      <p class="vagas__texto">Full-time</p>
-                      <p>Faixa salarial: R$ 8.000</p>
-                  </div>
+                        <h3 class="vagas__subtitulo">Desenvolvedor(a) Back-end</h3>
+                        <div class="texto__box">
+                            <p class="vagas__texto">Full-time</p>
+                            <p class="vagas__texto">Faixa salarial: R$ 8.000</p>
+                        </div>
+                    </div>
                 </div>
-
-              </div>
+            </section>
+            <section class="depoimentos">
+                <div class="depoimentos__box">
+                    <h3 class="depoimentos__subtitulo">Veja o que nossos colaboradores falam sobre nós</h3>
+                    <h2 class="depoimentos__titulo">OptimusTech se importa com a saúde dos seus colaboradores e sempre procura nos dar todo tipo de auxílio possível.</h2>
+                </div>
+                <div class="depoimentos__box">
+                    <img src="./img/julia-castro.svg" alt="Julia castro, desenvolvedora " class="user__img" />
+                    <h2 class="user__name">Júlia Castro</h2>
+                    <p class="user__job">Desenvolvedora Web</p>
+                </div>
             </section>
         </main>
-        <footer></footer>
-      </div>
+        <footer class="rodape">
+            <h2 class="rodape__titulo">Acompanhe as nossas oportunidades</h2>
+            <p class="rodape__texto">Seja o primeiro a saber quando novas vagas serão abertas!</p>
+            <div class="rodape__cadastro">
+                <input type="email" placeholder="Seu e-mail" class="rodape__email" />
+                <button class="rodape__button"><a href="#" class="rodape__link">Cadastrar</a></button>
+            </div>
+            <p class="rodape__copr">© 2022 OptimusTech. Todos os direitos reservados.</p>
+        </footer>
     </body>
 </html>
