@@ -1,0 +1,23 @@
+.metricas {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 6rem 6rem 6rem;
+}
+
+.metricas__numeros {
+    color: var(--vermelho);
+    font-size: 3.75rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.metricas__titulo {
+    color: var(--cinza-escuro);
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+}
