@@ -1,4 +1,4 @@
-## Building....🚧 (Falta a responsividade)
+## Building....🚧 (Desktop Only)
 
 # 🚀 Página de Contratação - #7DaysOfCode
 
