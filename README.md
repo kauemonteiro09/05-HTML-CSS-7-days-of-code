@@ -1,5 +1,3 @@
-## Building....🚧 (Desktop Only)
-
 # 🚀 Página de Contratação - #7DaysOfCode
 
 Este repositório contém o projeto desenvolvido como parte do desafio **#7DaysOfCode - HTML e CSS** da **Alura**, proposto dentro da formação **"A partir do zero: HTML e CSS para projetos web - Se desenvolva como um Dev em T em Front-end"**. O objetivo do desafio foi criar uma página completa, incluindo **cabeçalho**, **corpo** e **rodapé**, baseada em um layout fornecido no **Figma**.
