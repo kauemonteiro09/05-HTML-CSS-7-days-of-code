@@ -37,7 +37,9 @@
 }
 
 .talentos__vagas {
-    margin: 0 14rem;
+    display: inline-block;
+    width: 60vw;
+    margin: auto;
 }
 
 .vagas__titulo {
@@ -71,4 +73,80 @@
 
 .vagas__texto {
     font-weight: 500;
+}
+
+@media screen and (max-width: 1024px) {
+    .talentos {
+        padding: 2rem;
+    }
+
+    .talentos__info {
+        margin-bottom: 2rem;
+    }
+
+    .talentos__img {
+        margin-bottom: 2rem;
+    }
+
+    .talentos__vagas {
+        width: 70vw;
+    }
+
+    .vagas__titulo {
+        margin-bottom: 1rem;
+    }
+
+    .vagas__box {
+        gap: 1rem;
+    }
+    .texto__box {
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .talentos {
+        padding: 2rem 2rem 0 2rem;
+    }
+
+    .talentos__info {
+        margin-bottom: 1rem;
+    }
+
+    .talentos__img {
+        display: none;
+    }
+
+    .talentos__vagas {
+        width: 80vw;
+    }
+
+    .talentos__titulo {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .talentos__texto {
+        line-height: normal;
+    }
+
+    .vagas__titulo {
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+
+    .vagas__box {
+        gap: 1rem;
+        margin: 1rem 0;
+    }
+    .texto__box {
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .vagas__subtitulo {
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: normal;
+    }
 }

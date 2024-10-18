@@ -64,3 +64,64 @@
     font-style: normal;
     line-height: 1.5rem;
 }
+
+@media screen and (max-width: 1024px) {
+    .rodape {
+        padding: 2rem 0;
+    }
+
+    .rodape__titulo {
+        font-size: 1.5rem;
+        line-height: 0;
+        margin-bottom: 1rem;
+    }
+
+    .rodape__texto {
+        font-size: 1rem;
+        line-height: 1.875rem;
+        margin-bottom: 1rem;
+    }
+
+    .rodape__cadastro {
+        margin-bottom: 2rem;
+    }
+
+    .rodape__copr {
+        font-size: 0.875rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .rodape {
+        padding: 4rem 0 0 0;
+    }
+
+    .rodape__titulo {
+        font-size: 1rem;
+        line-height: 0;
+        margin-bottom: 1rem;
+    }
+
+    .rodape__texto {
+        font-size: 1rem;
+        line-height: 1.125rem;
+        margin-bottom: 1rem;
+    }
+
+    .rodape__cadastro {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        gap: 0.5rem;
+        width: 60vw;
+    }
+
+    .rodape__email {
+        width: 100%;
+    }
+
+    .rodape__copr {
+        font-size: 0.875rem;
+        margin: 2rem 1rem 1rem 1rem;
+    }
+}

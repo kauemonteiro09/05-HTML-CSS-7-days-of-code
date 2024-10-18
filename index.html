@@ -11,10 +11,20 @@
         <header class="header">
             <div class="header__box">
                 <div class="header__logo">
-                    <img src="./img/globo-vermelho.svg" alt="Logo da empresa OptimusTech" class="header__logo-img" />
+                    <input type="checkbox" id="menu" class="header__checkbox" />
+                    <label for="menu" class="header__rotulo">
+                        <img src="./img/globo-vermelho.svg" alt="Logo da empresa OptimusTech" class="header__logo-img" />
+                        <img src="./img/globo-vermelho-selected.svg" alt="Logo da empresa OptimusTech" class="header__logo-img logo-selected" />
+                    </label>
+                    <ul class="header__list list__mobile">
+                        <li class="header__item"><a href="#" class="header__link">Home</a></li>
+                        <li class="header__item"><a href="#" class="header__link">Produtos</a></li>
+                        <li class="header__item"><a href="#" class="header__link"> Recursos</a></li>
+                        <li class="header__item"><a href="#" class="header__link">Sobre nós</a></li>
+                    </ul>
                     <p class="header__logo-text">OptimusTech</p>
                 </div>
-                <ul class="header__list">
+                <ul class="header__list list__desktop">
                     <li class="header__item"><a href="#" class="header__link">Home</a></li>
                     <li class="header__item"><a href="#" class="header__link">Produtos</a></li>
                     <li class="header__item"><a href="#" class="header__link"> Recursos</a></li>

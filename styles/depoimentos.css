@@ -45,3 +45,50 @@
     font-size: 0.875rem;
     line-height: 1.25rem;
 }
+
+@media screen and (max-width: 1024px) {
+    .depoimentos {
+        padding: 1rem;
+        gap: 1rem;
+        margin: 0 2rem;
+    }
+
+    .depoimentos__subtitulo {
+        margin-bottom: 0.25rem;
+    }
+    .depoimentos__titulo {
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 1.75rem;
+        letter-spacing: -0.045rem;
+        /* width: 90vw; */
+    }
+
+    .user__img {
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .depoimentos {
+        padding: 1rem;
+        gap: 1rem;
+        margin: 1rem;
+        text-align: center;
+    }
+
+    .depoimentos__subtitulo {
+        margin-bottom: 0.25rem;
+        width: 100%;
+    }
+    .depoimentos__titulo {
+        font-size: 1.125rem;
+        line-height: normal;
+        width: 100%;
+        font-weight: 400;
+    }
+
+    .user__img {
+        margin-bottom: 0.5rem;
+    }
+}

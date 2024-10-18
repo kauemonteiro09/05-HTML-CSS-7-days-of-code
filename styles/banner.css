@@ -4,7 +4,7 @@
     align-items: center;
     text-align: center;
     gap: 1.5rem;
-    padding: 6rem 0;
+    padding: 6rem;
 }
 
 .banner__subtitulo {
@@ -25,4 +25,30 @@
     margin: 0.5rem 0;
     line-height: 1.875rem;
     width: 60vw;
+}
+
+@media screen and (max-width: 1024px) {
+    .banner__box {
+        padding: 2rem 0;
+        gap: 0rem;
+    }
+
+    .banner__titulo {
+        font-size: 2.5rem;
+    }
+
+    .banner__texto {
+        width: 90vw;
+        padding: 0 2rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner__titulo {
+        line-height: 2.5rem;
+    }
+    .banner__texto {
+        width: 100vw;
+    }
 }

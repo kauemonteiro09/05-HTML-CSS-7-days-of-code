@@ -4,21 +4,14 @@
 .header__buttons {
     display: flex;
     align-items: center;
-
-    justify-content: space-between;
-}
-
-.header {
-    padding: 1rem 5rem;
 }
 
 .header__box {
-    padding: 0.5rem 2rem;
+    padding: 1rem 6rem;
 }
 
 .header__logo {
     gap: 0.5rem;
-    margin-right: 10rem;
 }
 
 .header__logo-text {
@@ -28,8 +21,7 @@
 
 .header__list {
     gap: 2rem;
-    margin-left: 0;
-    margin-right: auto;
+    margin: auto;
 }
 
 .header__link {
@@ -75,5 +67,121 @@
     color: var(--branco);
     font-weight: 500;
     border: 1px solid var(--vermelho);
+    font-size: 1rem;
     border: none;
+}
+
+.list__mobile {
+    display: none;
+}
+
+.header__checkbox {
+    display: none;
+}
+
+.logo-selected {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .header__box {
+        padding: 2rem;
+        gap: 1rem;
+    }
+
+    .header__logo-text {
+        font-size: 1.125rem;
+        font-weight: 600;
+    }
+
+    .header__list {
+        gap: 1rem;
+    }
+
+    .header__link {
+        font-size: 1rem;
+    }
+
+    .header__buttons {
+        gap: 0.5rem;
+    }
+
+    .header-button__primario,
+    .header-button__secundario {
+        padding: 0.5rem;
+    }
+
+    .button__link-primario,
+    .button__link-secundario {
+        font-size: 0.875rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__box {
+        padding: 1rem 2rem;
+        gap: 1rem;
+        justify-content: space-between;
+        margin-bottom: 6rem;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    .header__logo {
+        margin-left: 0.5rem;
+    }
+
+    .header__logo-img {
+        width: 3rem;
+    }
+    .header__logo-text {
+        display: none;
+    }
+
+    .header__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+        padding: 0.5rem 1rem;
+    }
+
+    .header__link {
+        color: var(--branco);
+    }
+
+    .header__list {
+        display: none;
+    }
+
+    .header__checkbox:checked ~ .header__list {
+        display: flex;
+        position: absolute;
+        justify-content: space-between;
+        align-items: stretch;
+        text-align: center;
+        flex-wrap: wrap;
+        top: 100%;
+        gap: 0;
+        background-color: var(--vermelho);
+        border-radius: 1rem;
+        margin-right: 2rem;
+        width: 80vw;
+    }
+
+    .header__checkbox:checked ~ .header__list > .header__item:hover {
+        background: var(--vermelho-hover);
+        border-radius: 1rem;
+        border: none;
+    }
+
+    .header__checkbox:checked ~ .header__rotulo > .header__logo-img {
+        display: none;
+    }
+
+    .header__checkbox:checked ~ .header__rotulo > .logo-selected {
+        display: block;
+    }
 }

@@ -7,6 +7,7 @@
 
 .metricas__box {
     width: 50%;
+    padding: 2rem 0;
 }
 
 .metricas__numeros {
@@ -23,4 +24,41 @@
     font-weight: 500;
     line-height: 1.75rem;
     margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .metricas {
+        gap: 1rem;
+        padding: 0 2rem;
+    }
+
+    .metricas__numeros {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .metricas__titulo {
+        font-size: 1.125rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .metricas {
+        flex-direction: column;
+    }
+
+    .metricas__box {
+        text-align: center;
+        width: 100%;
+        padding: 0.5rem 0;
+    }
+
+    .metricas__numeros {
+        margin-bottom: 0.5rem;
+    }
+
+    .metricas__titulo {
+        line-height: 1.75rem;
+        margin-bottom: 0rem;
+    }
 }
