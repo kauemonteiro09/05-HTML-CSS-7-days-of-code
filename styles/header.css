@@ -135,6 +135,9 @@
 
     .header__logo-img {
         width: 3rem;
+        display: block;
+        margin: 0;
+        padding: 0;
     }
     .header__logo-text {
         display: none;
@@ -177,11 +180,13 @@
         border: none;
     }
 
-    .header__checkbox:checked ~ .header__rotulo > .header__logo-img {
+    .header__checkbox:checked ~ .header__rotulo > .logo-unselected {
         display: none;
     }
 
     .header__checkbox:checked ~ .header__rotulo > .logo-selected {
+        width: 3rem;
         display: block;
+        margin-bottom: 0.2rem;
     }
 }
