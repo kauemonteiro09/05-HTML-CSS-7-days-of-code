@@ -22,6 +22,7 @@
 .header__list {
     gap: 2rem;
     margin: auto;
+    white-space: nowrap;
 }
 
 .header__link {
