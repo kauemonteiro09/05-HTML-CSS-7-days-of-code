@@ -38,7 +38,7 @@ Este projeto foi desenvolvido como parte do curso **"A partir do zero: HTML e CS
 
 ## 🚀 Deploy
 
-Você pode acessar o projeto publicado através deste link: [**Página de Contratação**](https://kauemonteiro09.github.io/alura-7-days-of-code/)
+Você pode acessar o projeto publicado através deste link: [**Página de Contratação**](https://05-html-css-7-days-of-code.vercel.app/)
 
 ## 🏆 Conclusão
 
