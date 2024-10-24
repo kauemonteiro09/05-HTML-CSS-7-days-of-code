@@ -16,7 +16,7 @@ Neste projeto, apliquei diversos conceitos aprendidos ao longo da formação de 
 
 ## 📷 Screenshot do Projeto
 
-[![image](https://github.com/user-attachments/assets/2ecf205c-994c-4296-9a5a-cbb4c80ff462)](https://kauemonteiro09.github.io/alura-7-days-of-code/)
+[![image](https://github.com/user-attachments/assets/2ecf205c-994c-4296-9a5a-cbb4c80ff462)](https://05-html-css-7-days-of-code.vercel.app/)
 
 
 ## 🛠️ Tecnologias Utilizadas
